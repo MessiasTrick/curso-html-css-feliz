@@ -50,7 +50,22 @@ img {
     transition: transform 100ms linear;
 }
 
-#background {
+.banner {
+    display: flex;
+    background: url(../assets/img/photo.png);
+    width: 1279px;
+    height: 797px;
+    border-bottom: 10px solid #000;
+}
+
+#photo {
+    background: url(../assets/img/photo-blur.png);
+    width: 955px;
+    height: 797px;
+    border-right: 5px solid #000;
+}
+
+.background {
     margin-top: 116px;
     margin-left: 91px;
     background: #3A4042;
@@ -86,14 +101,14 @@ img {
     padding-left: 40px;
 }
 
-#background2 {
+.background2 {
     display: inline-block;
     text-align: unset;
 }
 
 #background-title1, #background-title2 {
     margin-top: 38px;
-    margin-left: 181px;
+    margin-left: 90px;
 }
 
 #background-title2 {
