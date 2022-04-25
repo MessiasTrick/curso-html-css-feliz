@@ -29,7 +29,7 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #732240;
     padding: 18px 20px;
@@ -48,4 +48,54 @@ img {
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
     transition: transform 100ms linear;
+}
+
+#background {
+    margin-top: 116px;
+    margin-left: 91px;
+    background: #3A4042;
+    width: 627px;
+    height: 184px;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.title {
+    display: flex;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 4px 4px 0px #000;
+}
+
+#title1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 42px;
+    padding-right: 97px;
+    padding-bottom: 28px;
+    padding-left: 80px;
+    color: #FFD4B5;
+}
+
+#title2 {
+    color: #FFF;
+    font-size: 30px;
+    line-height: 30px;
+    padding-right: 47px;
+    padding-bottom: 44px;
+    padding-left: 40px;
+}
+
+#background2 {
+    display: inline-block;
+    text-align: unset;
+}
+
+#background-title1, #background-title2 {
+    margin-top: 38px;
+    margin-left: 181px;
+}
+
+#background-title2 {
+    margin-left: 112px;
 }
