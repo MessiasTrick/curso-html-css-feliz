@@ -1,0 +1,22 @@
+.skills .lista-skill, .lista-skill2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.lista-skill .skill-html, .skill-css, .skill-js, .skill-react {
+    display: flex;
+    margin-bottom: 38px;
+    margin-right: 100px;
+}
+
+.lista-skill2 .skill-nodejs, .skill-tdd, .skill-restapi, .skill-ux {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.skill-restapi img, .skill-ux img {
+    width: 90px;
+    height: 54px;
+    margin-top: 24px;
+}
