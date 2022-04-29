@@ -1,0 +1,10 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 100ms linear;
+}
+
+.logo:hover {
+    transform:scale(1.08);
+}
