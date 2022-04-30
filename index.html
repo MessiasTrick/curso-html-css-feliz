@@ -20,13 +20,12 @@
   <link rel="stylesheet" href="./css/components/header.css">
   <link rel="stylesheet" href="./css/components/logo.css">
   <link rel="stylesheet" href="./css/components/subtitle.css">
-  <link rel="stylesheet" href="./css/components/title.css">
+  <link rel="stylesheet" href="./css/components/main-title.css">
   <link rel="stylesheet" href="./css/components/banner.css">
-  <link rel="stylesheet" href="./css/components/skills.css">
-  <link rel="stylesheet" href="./css/components/skill.css">
-  <link rel="stylesheet" href="./css/components/lista-skill.css">
-  <link rel="stylesheet" href="./css/components/bar.css">
-  <link rel="stylesheet" href="./css/components/lista-skill.css">
+  <link rel="stylesheet" href="./css/components/section.css">
+  <link rel="stylesheet" href="./css/components/skill-tec.css">
+  <link rel="stylesheet" href="./css/components/progress-bar.css">
+  <link rel="stylesheet" href="./css/components/wrapper-skill.css">
 </head>
 
 <body>
@@ -45,7 +44,7 @@
   <section class="banner">
     <div class="wrapper">
       <div class="box">
-        <h1 class="title">MessiasTrick</h1>
+        <h1 class="main-title">MessiasTrick</h1>
         <h2 class="subtitle">FrontEnd Developer</h2>
       </div>
 
@@ -56,95 +55,101 @@
     </div>
   </section>
 
-  <section class="skills">
-    <h1 class="title">Skills</h1>
+  <section class="section">
+    <h2 class="main-title -second">Skills</h2>
 
-    <div class="centralize">
-      <div class="lista-skill">
-        <div class="skill-html">
-          <img src="./assets/img/ico_html5.png">
-          <div class="skill">
-            <h2 class="subtitle">HTML</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
-        </div>
+    <div class="wrapper-skill">
+      <article class="skill-tec">
+          <img class="icon" src="./img/ico_html5.png" alt="Logo do HTML5 em pixel art">
 
-        <div class="skill-css">
-          <img src="./assets/img/ico_css3.png">
-          <div class="skill">
-            <h2 class="subtitle">CSS</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
+          <div class="right">
+            <h3 class="title" >HTML</h3>
+            <progress class="progress-bar" max="100" value="70">
+                70%
+            </progress>
           </div>
-        </div>
+      </article>
 
-        <div class="skill-js">
-          <img src="./assets/img/ico_js.png">
-          <div class="skill">
-            <h2 class="subtitle">JavaScript</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
-        </div>
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_nodejs.png" alt="Logo do NodeJS em pixel art">
 
-        <div class="skill-react">
-          <img src="./assets/img/ico_react.png">
-          <div class="skill">
-            <h2 class="subtitle">React</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
+        <div class="right">
+          <h3 class="title" >NodeJS</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
         </div>
-      </div>
+      </article>
 
-      <div class="lista-skill2">
-        <div class="skill-nodejs">
-          <img src="./assets/img/ico_nodejs.png">
-          <div class="skill">
-            <h2 class="subtitle">NodeJS</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
-        </div>
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_css3.png" alt="Logo do CSS3 em pixel art">
 
-        <div class="skill-tdd">
-          <img src="./assets/img/ico_tdd.png">
-          <div class="skill">
-            <h2 class="subtitle">TDD</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
+        <div class="right">
+          <h3 class="title" >CSS3</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
         </div>
+      </article>
 
-        <div class="skill-restapi">
-          <img src="./assets/img/ico_restapi.png">
-          <div class="skill">
-            <h2 class="subtitle">Rest API</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
-        </div>
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_tdd.png" alt="Logo do TDD em pixel art">
 
-        <div class="skill-ux">
-          <img src="./assets/img/ico_ux.png">
-          <div class="skill">
-            <h2 class="subtitle">UX</h2>
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-          </div>
+        <div class="right">
+          <h3 class="title" >TDD</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
         </div>
-      </div>
+      </article>
+
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_js.png" alt="Logo do JavaScript em pixel art">
+
+        <div class="right">
+          <h3 class="title" >JavaScript</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_restapi.png" alt="Logo do RestAPI em pixel art">
+
+        <div class="right">
+          <h3 class="title" >Rest API</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_react.png" alt="Logo do React em pixel art">
+
+        <div class="right">
+          <h3 class="title" >React</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
+        </div>
+      </article>
+
+      <article class="skill-tec">
+        <img class="icon" src="./img/ico_ux.png" alt="Logo do UX em pixel art">
+
+        <div class="right">
+          <h3 class="title" >UX</h3>
+          <progress class="progress-bar" max="100" value="70">
+              70%
+          </progress>
+        </div>
+      </article>
     </div>
+
   </section>
+  
 </body>
 
 </html>
