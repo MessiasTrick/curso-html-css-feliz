@@ -1,0 +1,17 @@
+.main-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 100ms linear;
+}
+
+.main-logo:hover {
+    transform:scale(1.08);
+}
+
+.main-logo.-second {
+    width: 280px;
+    height: 280px;
+    border-radius: 0%;
+    box-shadow: 10px 10px 0px #FFF;
+}
