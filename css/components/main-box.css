@@ -9,29 +9,3 @@
 .main-box .main-title {
     margin-bottom: 28px;
 }
-
-.main-box .main-title.-second {
-    margin: 0;
-}
-
-.main-box.-second {
-    box-sizing: border-box;
-    box-shadow: 10px 10px 0px #FFF;
-    padding: 0px;
-    padding-top: 17px;
-    transition: transform 100ms linear;
-    max-height: 280px;
-    width: 280px;
-}
-
-.main-box.-second:nth-child(1) {
-    background-color: #7C5E99;
-}
-
-.main-box.-second:nth-child(2) {
-    background-color: #4C5B84;
-}
-
-.main-box.-second:hover {
-    transform:scale(1.08);
-}
